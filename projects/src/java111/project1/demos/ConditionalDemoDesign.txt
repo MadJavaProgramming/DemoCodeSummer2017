@@ -1,0 +1,4 @@
+Goal: Write a program that demonstrates if else logic. 
+Class Name: ConditionalDemo
+What the class will do (methods): main method will create a variable and perform
+            if/else logic based on the value of the variable

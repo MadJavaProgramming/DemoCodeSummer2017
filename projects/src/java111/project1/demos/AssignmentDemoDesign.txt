@@ -1,0 +1,4 @@
+Goal: Write a program that demonstrates assigning values to variables (int, double, String)
+Class Name: AssignmentDemo
+What the class will do (methods): main method will create variables of 3 types,
+            assign values to the variables, and display them.

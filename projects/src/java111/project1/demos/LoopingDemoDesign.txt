@@ -1,0 +1,4 @@
+Goal: Write a program that demonstrates looping. 
+Class Name: LoopingDemo
+What the class will do (methods): main method will create a counter and perform
+            looping based on the value of the counter
