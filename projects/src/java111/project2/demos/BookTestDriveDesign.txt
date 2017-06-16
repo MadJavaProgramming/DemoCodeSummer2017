@@ -1,0 +1,7 @@
+Class: BookTestDrive
+
+Instance variable: NO!
+
+Methods: main
+    create 2 book objects
+    and display them.
