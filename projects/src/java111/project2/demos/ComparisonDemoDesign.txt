@@ -1,0 +1,8 @@
+Purpose: Demonstrate comparing primitives versus objects (Strings)
+
+Instance Variables: None
+
+Method: 1. create primitive variables
+        2. compare primitives
+        3. create 2 Strings (objects)
+        4. compare those two String .equals()

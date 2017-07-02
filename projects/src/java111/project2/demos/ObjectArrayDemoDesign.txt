@@ -1,0 +1,9 @@
+Purpose - demonstrate using an array of objects (books)
+
+Classname: ObjectArrayDemo
+
+method: main to 
+        1. instantiate an array of books
+        2. create book objects
+        3. put the book objects in the array
+        4. display the books from the array

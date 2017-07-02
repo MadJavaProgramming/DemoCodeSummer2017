@@ -29,7 +29,26 @@ public class BookTestDrive {
          
          // display the book
          bookTwo.display();
-     }
+         
+         // assign bookTwo to bookOne
+         bookOne = bookTwo;
+         
+         System.out.println("After bookOne = bookTwo;");
+         bookOne.display();
+         bookTwo.display();
+         
+         // change title on bookOne
+         bookOne.title = "Java Rocks Volume 2";
+         System.out.println("After  bookOne.title = Java Rocks Volume 2;");
+         bookOne.display();
+         bookTwo.display();
+         
+         // set bookTwo to null
+         bookTwo = null;
+         System.out.println("After setting bookTwo = null");
+         bookOne.display();
+         bookTwo.display(); // null pointer exception.
+   }
 
 
 

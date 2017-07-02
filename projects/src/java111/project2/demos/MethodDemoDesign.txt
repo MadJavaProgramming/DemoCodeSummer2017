@@ -1,0 +1,5 @@
+Purpose - demonstrate passing values into methods and returning values
+
+Classname: MethodDemo 
+
+Methods:  1. DisplayData - display whatever string is passed into the method

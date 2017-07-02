@@ -12,9 +12,9 @@ public class BookTestDrive {
          Book bookOne = new Book();
          
          // set the title, author, and number of pages
-         bookOne.title = "Head First Java";
-         bookOne.author = "Kathy Sierra & Burt Bates";
-         bookOne.numberOfPages  = 688;
+         bookOne.setTitle("Head First Java");
+         bookOne.setAuthor("Kathy Sierra & Burt Bates");
+         bookOne.setNumberOfPages(688);
          
          // display the book
          bookOne.display();
@@ -23,9 +23,9 @@ public class BookTestDrive {
          Book bookTwo = new Book();
          
          // set the title, author, and number of pages
-         bookTwo.title = "PHP Rocks";
-         bookTwo.author = "Ken Marks";
-         bookTwo.numberOfPages  = 1000;
+         bookTwo.setTitle("PHP Rocks");
+         bookTwo.setAuthor("Ken Marks");
+         bookTwo.setNumberOfPages(1000);
          
          // display the book
          bookTwo.display();
@@ -38,16 +38,12 @@ public class BookTestDrive {
          bookTwo.display();
          
          // change title on bookOne
-         bookOne.title = "Java Rocks Volume 2";
+         bookOne.setTitle("Java Rocks Volume 2");
          System.out.println("After  bookOne.title = Java Rocks Volume 2;");
          bookOne.display();
          bookTwo.display();
          
-         // set bookTwo to null
-         bookTwo = null;
-         System.out.println("After setting bookTwo = null");
-         bookOne.display();
-         bookTwo.display();
+        
    }
 
 
