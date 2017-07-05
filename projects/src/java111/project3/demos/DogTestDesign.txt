@@ -1,0 +1,9 @@
+Dog Test Class
+
+    Instantiate a Dog object.
+    Set the weight of the dog
+    Run the food needs calculation
+    Compare the results with what we expect
+    Output “success” or “failure”
+    Do some more tests!
+
