@@ -1,0 +1,17 @@
+ProcessLibrary Design
+
+Class: ProcessLibrary
+
+    Create a local array of books
+    Create the book objects in the array
+    Set values into the book instance variables
+    Set the array in the library using the set method
+    
+Instance variables
+    Library
+    
+Methods
+    Run - instantiate the library object and call the create method
+    Create - creating the local array, creating books, putting them in the array
+    
+    

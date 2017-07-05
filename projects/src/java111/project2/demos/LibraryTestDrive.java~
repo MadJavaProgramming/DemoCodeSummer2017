@@ -11,7 +11,8 @@ public class LibraryTestDrive {
       * @param args the command line arguments
       */
       public static void main(String[] args) {
-          ProcessLibrary processor = new ProcessLibrary();
-          processor.run();
+          Library library = new Library();
+          library.addBooks();
+          library.displayBooks();
       }
 }

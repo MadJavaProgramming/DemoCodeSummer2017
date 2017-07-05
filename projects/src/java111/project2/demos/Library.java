@@ -5,24 +5,18 @@
  
 public class Library {
     
-    Book[] collection;
+    private Book[] collection;
+
+	/**
+	 * Sets the value of collection.
+	 * @param collection The value to assign collection.
+	 */
+	public void setCollection(Book[] collection) {
+		this.collection = collection;
+	}
 
-    /** method to add new books to the library
-     */
-    public void addBooks() {
-        // instantiate/create my array books
-        collection = new Book[3];
-        
-        // create books and add them to the collection
-        collection[0] = new Book();
-        collection[0].setTitle("Book 1");
-        
-        collection[1] = new Book();
-        collection[1].setTitle("Book 2");
-        
-        collection[2] = new Book();
-        collection[2].setTitle("Book 3");
-    }
+
+    
     
     /** method to display all the library's books
      */
