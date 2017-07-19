@@ -1,0 +1,19 @@
+Book superclass/subclass design
+
+Book - all have title, author, isbn, number of copies
+    Hard copy
+        Physical Location
+        Hardcover boolean
+        Number of pages
+    Audio book
+        Narrator 
+        Length in minutes
+    Ebook
+        URL
+        Character count
+        
+BookTestDrive
+    1. instantiate a book
+    2. instantiate a hardcopy
+    3. set values on each
+    4. display - override

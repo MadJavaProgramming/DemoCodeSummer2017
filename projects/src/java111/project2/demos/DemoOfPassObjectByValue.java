@@ -32,6 +32,7 @@ public class DemoOfPassObjectByValue {
     void run() {
         dogOne.size = 20;
         go(dogOne);
+		System.out.println("value of dogOne after calling go " + dogOne.size);
     }
 }
   

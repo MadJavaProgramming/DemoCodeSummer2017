@@ -1,0 +1,35 @@
+/** This class represents a vehicle
+ *  which will be used to emphasize 
+ *  Unit 2 concepts and help you prepare
+ *  for Project 2.
+ *  @author <your name here>
+ */
+
+public class Vehicle {
+
+    // Create private instance variables for make, year, and mileage.
+    
+    
+    
+    // Create public getters and setters for each instance variable
+    
+    
+    /** Create a method to calculate
+     *  the average number of miles the vehicle
+     *  was driven per year.  This value will be a double
+     *
+     *  @return average mileage per year
+     */
+     
+     
+     
+     /** Create a method, display(), that returns a String containing the 
+      *  vehicle information. It should include all instance variables and 
+      *  average mileage per year. 
+      *  
+      *  @return vehicle details
+      */
+
+
+
+}

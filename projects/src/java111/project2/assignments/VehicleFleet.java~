@@ -1,0 +1,37 @@
+/** This class represents a fleet of vehicles
+ *  which will be used to emphasize 
+ *  Unit 2 concepts and help you prepare
+ *  for Project 2.
+ *  @author <your name here>
+ */
+
+public class VehicleFleet {
+
+    // Create the following instance variables
+    //   1) an array of Vehicle objects
+    //   2) a double that will hold annual average mileage for our cars
+    
+       
+    // Create a public set method for the array
+    
+    
+    // Create a public get method for the annual average mileage
+    
+    
+    
+    /** Create a method to calculate
+     *  the average number of miles the fleet of vehicles
+     *  was driven per year (annual average mileage).   
+     */
+     
+     
+     
+     /** Create a method that prints out our vehicle fleet information
+      *  1) Loop through the array and call the display() method on each vehicle
+      *  2) Print the total average annual mileage for our entire fleet to the
+      *     terminal window
+      */
+
+
+
+}
