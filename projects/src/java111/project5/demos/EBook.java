@@ -4,7 +4,7 @@ package java111.project5.demos;
  * @author pwaite
  */
 
-public class EBook extends Book {
+public class EBook extends Book implements Comparable<EBook> {
 
     private String url;
     private int characterCount;
@@ -16,6 +16,15 @@ public class EBook extends Book {
         count++;
         System.out.println("In the EBook constructor");
     }
+
+	/** Creates an EBook and assigns url and character count
+	 */
+	public EBook(int newCharacterCount, String newUrl, int isbn) {
+
+		this(newCharacterCount, newUrl);
+		setIsbn(isbn);
+
+	}
     
     /** Creates an EBook and assigns url and character count
      */
@@ -98,7 +107,7 @@ public class EBook extends Book {
 	 public String toString() {
 	     return super.toString() + "Has " + characterCount + "characters" +
 	             " and is located at " + url + " We have a total of " + count +
-	             " ebooks right now";
+	             " ebooks right now" + System.lineSeparator();
 	 }
 	 
 	 /** Displays the eBook type
@@ -114,9 +123,25 @@ public class EBook extends Book {
      */
     public int determineLoanPeriod() {
         // code here to determine loan period
-        // based onpopularity of the book
+        // based on popularity of the book
         // and number of copies in stock
         return 21;
     }
 
+
+	@Override
+	public int compareTo(EBook thatBook) {
+    	final int BEFORE = -1;
+    	final int EQUAL = 0;
+    	final int AFTER = 1;
+
+    	if (this == thatBook) {
+    		return EQUAL;
+		} else if (this.getIsbn() < thatBook.getIsbn()) {
+    		return BEFORE;
+		} else if (this.getIsbn() > thatBook.getIsbn()) {
+    		return AFTER;
+		}
+		return 0;
+	}
 }

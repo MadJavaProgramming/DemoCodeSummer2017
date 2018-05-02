@@ -3,7 +3,7 @@ package java111.project5.demos;
  * @author pwaite
  */
  
-public abstract class Book implements Loanable{
+public abstract class Book implements Loanable {
     private String title;
     private String author;
     private int isbn;
@@ -26,8 +26,6 @@ public abstract class Book implements Loanable{
 		return isbn;
 
 	}
-
-
 
 
 
@@ -102,7 +100,7 @@ public abstract class Book implements Loanable{
 	 *  @return the book's details
 	 */
 	public String toString() {
-	    String bookDetail = super.toString() + title + " by " + author + " has ISBN " +
+	    String bookDetail = title + " by " + author + " has ISBN " +
 	            isbn + " and we have " + numberOfCopies + " copies.";
 	    return bookDetail;
 	}
